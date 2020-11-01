@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Game_Store.Domain.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Game-Store.Data\Game-Store.Data.csproj" />
+    <ProjectReference Include="..\Game-Store.Domain\Game-Store.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
